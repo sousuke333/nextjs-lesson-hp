@@ -19,7 +19,7 @@ export default function Contact () {
         <p className="text-xs mt-2 text-gray-600">city A</p>
         <p className="font-bold mt-3">E-mail</p>
         <p className="text-xs mt-2 textgray-600">abc@example.co.jp</p>
-        <p className="font-bold mt-3">Phone</p>
+        <p className="font-bold mt-3">Phoooone</p>
         <p className="text-xs mt-2 text-gray-600">000-0000-0000</p>
       </div>
 
