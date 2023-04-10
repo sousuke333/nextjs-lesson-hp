@@ -1,5 +1,5 @@
 import Link from "next/link";
-export const Post = ({ post }) => {
+export function Post ({ post }) {
   return (
     <div>
       <span>{post.id}</span>

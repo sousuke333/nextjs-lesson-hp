@@ -3,7 +3,7 @@ import { Post }  from "../components/Post";
 import { getAllPostData } from "../lib/posts";
 
 
-const Blog = ({ posts }) => {
+export default function Blog ({ posts }) {
   return (
     <Layout title="Blog">
     {/* <p className='text-4xl'>
@@ -16,7 +16,7 @@ const Blog = ({ posts }) => {
   )
 }
 
-export default Blog;
+// export default Blog;
 
 //サーバーサイドでbuild時に実行されるNEXT.jsの関数
 export async function getStaticProps(){
